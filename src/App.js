@@ -30,7 +30,7 @@ class App extends Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Learn React
+              Notre app est en maintenance Retrouvez bientôt vos films et séries ici !
             </a>
           </header>
           <p className="App-intro">;{this.state.apiResponse}</p>
