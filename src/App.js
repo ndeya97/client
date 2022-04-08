@@ -35,11 +35,11 @@ class App extends Component {
           </header> */}
 
           <div className='App-component'>  
-          Notre app est en maintenance Retrouvez bientôt vos films et séries ici !
+          <h1>Notre app est en maintenance Retrouvez bientôt vos films et séries ici !</h1>
 
             <img src={logo} className="App-logo" alt="logo" />
-
-                       <p className="App-intro"> Ici Démarrer le service média pour afficher {this.state.apiResponse}</p>
+                <img src={require('./images/thewalkingdead.png')} />
+                <p className="App-intro"> Ici Démarrer le service média pour afficher {this.state.apiResponse}</p>
 
           </div>
         </div>
