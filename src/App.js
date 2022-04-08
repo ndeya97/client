@@ -22,7 +22,7 @@ class App extends Component {
     render() {
       return (
         <div className="App">
-          <header className="App-header">
+          {/* <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
             <a
               className="App-link"
@@ -32,8 +32,16 @@ class App extends Component {
             >
               Notre app est en maintenance Retrouvez bientôt vos films et séries ici !
             </a>
-          </header>
-          <p className="App-intro">;{this.state.apiResponse}</p>
+          </header> */}
+
+          <div className='App-component'>  
+          Notre app est en maintenance Retrouvez bientôt vos films et séries ici !
+
+            <img src={logo} className="App-logo" alt="logo" />
+
+                       <p className="App-intro"> Ici Démarrer le service média pour afficher {this.state.apiResponse}</p>
+
+          </div>
         </div>
       );
     }  
